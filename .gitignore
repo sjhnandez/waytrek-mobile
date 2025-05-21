@@ -40,3 +40,4 @@ app-example
 
 # IDE config files
 .vscode/
+.vscode/*
