@@ -24,8 +24,7 @@ export default function Splash() {
           alignItems: "center",
         }}
       >
-        <WithLocalSvg asset={require("@/src/assets/icons/waytrek-logo.svg")} />
-        <WithLocalSvg asset={require("@/src/assets/icons/waytrek-brand.svg")} />
+        <WithLocalSvg asset={require("@/src/assets/icons/logo.svg")} />
       </View>
     </ImageBackground>
   );
