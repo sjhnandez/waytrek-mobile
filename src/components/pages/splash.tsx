@@ -4,7 +4,7 @@ import { WithLocalSvg } from "react-native-svg/css";
 export default function Splash() {
   return (
     <ImageBackground
-      source={require("@/src/assets/images/splash.png")}
+      source={require("~/assets/images/splash.png")}
       imageStyle={{
         top: "50%",
         left: "50%",
@@ -24,7 +24,7 @@ export default function Splash() {
           alignItems: "center",
         }}
       >
-        <WithLocalSvg asset={require("@/src/assets/icons/logo.svg")} />
+        <WithLocalSvg asset={require("~/assets/icons/logo.svg")} />
       </View>
     </ImageBackground>
   );

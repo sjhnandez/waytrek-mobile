@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { View } from "react-native";
+import { Text, View } from "react-native";
 import Animated, { FadeOut } from "react-native-reanimated";
 import Splash from "../components/pages/splash";
 import useFontsLoaded from "../hooks/useFontsLoaded";
@@ -26,7 +26,9 @@ const Index = () => {
       <Splash />
     </Animated.View>
   ) : (
-    <View>Home</View>
+    <View className="flex-1 items-center justify-center bg-white">
+      <Text className="text-xl font-bold text-blue-500">Home</Text>
+    </View>
   );
 };
 
